@@ -1,0 +1,7 @@
+1. Create and Import Database lmszai.sql
+2. Upload and Unzip Main_File.zip to your server
+3. Edit file .env and change info your database
+
+Admin Panel (site.com/login)
+Email: admin@gmail.com
+Password: nullcave
