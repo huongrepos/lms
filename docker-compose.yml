@@ -3,10 +3,7 @@ services:
 
     # PHP service
     app:
-        build: .
-        container_name: php-app
-        stdin_open: true # docker run -i
-        tty: true        # docker run -t
+        image: bitnami/php-fpm:8.2.1
         working_dir: /var/www/
         volumes:
             - ./:/var/www
